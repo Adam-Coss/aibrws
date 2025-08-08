@@ -1,0 +1,21 @@
+{
+  "name": "chromium-ai-browser",
+  "version": "1.0.1",
+  "description": "Electron (Chromium) browser with person detection + segmentation overlay (RT-DETR-R50 + U2Net via onnxruntime-web)",
+  "main": "main.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "models": "node scripts/download-models.js",
+    "dist:win": "electron-builder --win nsis"
+  },
+  "dependencies": {
+    "electron": "^35.0.0",
+    "onnxruntime-web": "^1.19.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.13.3",
+    "node-fetch": "^3.3.2"
+  }
+}

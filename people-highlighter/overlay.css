@@ -1,0 +1,2 @@
+.ph-overlay-canvas { position: absolute; pointer-events: none; z-index: 2147483647; }
+.ph-overlay-wrap { position: relative !important; }

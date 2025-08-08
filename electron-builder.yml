@@ -1,0 +1,10 @@
+appId: com.example.chromium-aibrowser
+productName: AI Browser
+directories:
+  output: dist
+files:
+  - "**/*"
+win:
+  target: nsis
+extraMetadata:
+  buildResources: build
